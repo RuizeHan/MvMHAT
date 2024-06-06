@@ -97,4 +97,4 @@ Portions of the code are borrowed from [Deep SORT](https://github.com/nwojke/dee
 
 **More information is coming soon ...**
 
-Contact: [han_ruize@tju.edu.cn](mailto:han_ruize@tju.edu.cn) (Ruize Han), [realgump@tju.edu.cn](mailto:realgump@tju.edu.cn) (Yiyang Gan). Any questions or discussions are welcomed! 
+Contact: [wff@tju.edu.cn](mailto:wff@tju.edu.cn) (Feifan Wang), [han_ruize@tju.edu.cn](mailto:han_ruize@tju.edu.cn) (Ruize Han). Any questions or discussions are welcome! 
