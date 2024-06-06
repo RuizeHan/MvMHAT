@@ -18,8 +18,6 @@
 - A self-supervised learning framework for MvMHAT.
 - A new benchmark for training and testing MvMHAT.
 
-% <div align=center><img src="https://github.com/RuizeHan/MvMHAT/blob/main/readme/mvmhat.png" width="500" height="260" alt="example"/><br/>
-
 <div align= left>
    
 ## Abstract
@@ -28,8 +26,6 @@
 Multi-view multi-human association and tracking (MvMHAT), is a new but important problem for multi-person scene video surveillance, aiming to track a group of people over time in each view, as well as to identify the same person across different views at the same time, which is different from previous MOT and  multi-camera MOT tasks only considering the over-time human tracking. This is a relatively new problem but is very important for multi-person scene video surveillance. This way, the videos for MvMHAT require more complex annotations while containing more information for self-learning. In this work, we tackle this problem with a self-supervised learning aware end-to-end network. 
 Specifically, we propose to take advantage of the spatial-temporal self-consistency rationale by considering three properties of reflexivity, symmetry, and transitivity. Besides the reflexivity property that naturally holds, we design the self-supervised learning losses based on the properties of symmetry and transitivity, for both appearance feature learning and assignment matrix optimization, to associate multiple humans over time and across views. Furthermore, to promote the research on MvMHAT, we build two new large-scale benchmarks for the network training and testing of different algorithms. Extensive experiments on the proposed benchmarks verify the effectiveness of our method. 
 
-
-% <div align=center><img src="https://github.com/RuizeHan/MvMHAT/blob/main/readme/2_00-min.png" width="750" height="275" alt="example"/><br/>
 
 <div align= left>
    
@@ -69,34 +65,7 @@ We add the evaluation code and the raw results of the proposed method in 'Eval_M
 
 ## Install (to be completed)
 
-The code was tested on Ubuntu 16.04, with Anaconda Python 3.6 and PyTorch v1.7.1. NVIDIA GPUs are needed for both training and testing. After install Anaconda:
-
-0. [Optional but recommended] create a new conda environment：
-~~~
-   conda create -n MVMHAT python=3.6
-~~~
-And activate the environment:
-~~~
-   conda activate MVMHAT
-~~~
-1. Install pytorch:
-~~~
-   conda install pytorch=1.7.1 torchvision -c pytorch
-~~~
-2. Clone the repository:
-~~~
-   MVMHAT_ROOT=/path/to/clone/MVMHAT
-   git clone https://github.com/realgump/MvMHAT.git $MVMHAT_ROOT
-~~~
-3. Install the requirements:
-~~~
-   pip install -r requirements.txt
-~~~
-4. Download the pretrained model to promote convergence:
-~~~
-   cd $MVMHAT_ROOT/models
-   wget https://download.pytorch.org/models/resnet50-19c8e357.pth -O pretrained.pth
-~~~
+See the 'readme' file included in the code.
 
 **[Notes]** The public code of the conference paper (ACM MM 21) can be found at https://github.com/realgump/MvMHAT.
 
