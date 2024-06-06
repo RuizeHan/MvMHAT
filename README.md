@@ -28,6 +28,14 @@ Specifically, we propose to take advantage of the spatial-temporal self-consiste
 
 
 <div align= left>
+
+## Install
+
+~~~
+See the 'readme' file included in the code.
+
+**[Notes]** The public code of the conference paper (ACM MM 21) can be found at https://github.com/realgump/MvMHAT.
+~~~
    
 ## Dataset (MvMHAT)
 
@@ -66,15 +74,6 @@ Password: mmpt
 
 We add the evaluation code and the raw results of the proposed method in 'Eval_MvMHAT_public.zip'.
 
-## Install (to be completed)
-
-~~~
-
-See the 'readme' file included in the code.
-
-**[Notes]** The public code of the conference paper (ACM MM 21) can be found at https://github.com/realgump/MvMHAT.
-
-~~~
 
 ## Citation
 If you find this project useful for your research, please use the following BibTeX entry.
