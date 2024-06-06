@@ -18,7 +18,7 @@
 - A self-supervised learning framework for MvMHAT.
 - A new benchmark for training and testing MvMHAT.
 
-<div align=center><img src="https://github.com/RuizeHan/MvMHAT/blob/main/readme/mvmhat.png" width="500" height="260" alt="example"/><br/>
+% <div align=center><img src="https://github.com/RuizeHan/MvMHAT/blob/main/readme/mvmhat.png" width="500" height="260" alt="example"/><br/>
 
 <div align= left>
    
@@ -29,7 +29,7 @@ Multi-view multi-human association and tracking (MvMHAT), is a new but important
 Specifically, we propose to take advantage of the spatial-temporal self-consistency rationale by considering three properties of reflexivity, symmetry, and transitivity. Besides the reflexivity property that naturally holds, we design the self-supervised learning losses based on the properties of symmetry and transitivity, for both appearance feature learning and assignment matrix optimization, to associate multiple humans over time and across views. Furthermore, to promote the research on MvMHAT, we build two new large-scale benchmarks for the network training and testing of different algorithms. Extensive experiments on the proposed benchmarks verify the effectiveness of our method. 
 
 
-<div align=center><img src="https://github.com/RuizeHan/MvMHAT/blob/main/readme/2_00-min.png" width="750" height="275" alt="example"/><br/>
+% <div align=center><img src="https://github.com/RuizeHan/MvMHAT/blob/main/readme/2_00-min.png" width="750" height="275" alt="example"/><br/>
 
 <div align= left>
    
