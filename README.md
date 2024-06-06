@@ -32,7 +32,7 @@ Specifically, we propose to take advantage of the spatial-temporal self-consiste
 ## Install
 
 ~~~
-See the 'readme' file included in the code.
+See the 'README' file included in the code folder 'mvmhat_pro'.
 
 **[Notes]** The public code of the conference paper (ACM MM 21) can be found at https://github.com/realgump/MvMHAT.
 ~~~
