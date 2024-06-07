@@ -47,7 +47,6 @@ class MMPTrack_Loader(Dataset):
             }
         # 测试集划分（暂定）
         else:
-            # TODO recover
             self.cut_dict={
                 'cafe_shop_0': [0, 1000],
                 'industry_safety_0': [0, 1000],
@@ -55,13 +54,6 @@ class MMPTrack_Loader(Dataset):
                 'office_0': [0, 1000],
                 'retail_0': [0, 1000]
             }
-            # self.cut_dict = {
-            #     'cafe_shop_0': [0, 7521],
-            #     'industry_safety_0': [0, 7361],
-            #     'lobby_0': [0, 6325],
-            #     'office_0': [0, 6300],
-            #     'retail_0': [0, 5272]
-            # }
 
         if self.mode=='train':
             self.frames=frames
