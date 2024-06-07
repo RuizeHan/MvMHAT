@@ -116,7 +116,7 @@ python MMPTrack_inference.py
 ~~~
 ## Evaluation
 We add the evaluation code and the raw results of the proposed method in 'Eval_MvMHAT_public.zip'.
-Besides, we define a new metric STMA (Spatial-Temporal Matching Accuracy) for MvMHAT task overall evaluation:
+Besides, we define a new metric STMA (Spatial-Temporal Matching Accuracy) for the overall evaluation of the MvMHAT task:
 ~~~
 # use you want to test dataset ('mvmhat' or 'MMPTrack') in new_metric.py line 265
 # Then, Modify lines 271 and 272 of new_metry.py to your predicted and ground-truth result paths, respectively.
