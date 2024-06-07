@@ -10,6 +10,8 @@
 - Second, a new pseudo-label generation strategy with dummy nodes used for more general MvMHAT cases is introduced. 
 - Third, we include a new dataset MMP-MvMHAT and  significantly extend the experimental comparisons and analyses.
 
+code available: [**here**](https://github.com/RuizeHan/MvMHAT/tree/main/MvMHAT%2B%2B)
+
 #### Previous conference paper (MvMHAT):
 
 > [**Self-supervised Multi-view Multi-Human Association and Tracking** (ACM MM 2021)](https://dl.acm.org/doi/10.1145/3474085.3475177),            
@@ -18,13 +20,22 @@
 - A self-supervised learning framework for MvMHAT.
 - A new benchmark for training and testing MvMHAT.
 
+code available: [**here**](https://github.com/realgump/MvMHAT)
 <div align= left>
    
 ## Abstract
 
 <div align= justify>
-Multi-view multi-human association and tracking (MvMHAT), is a new but important problem for multi-person scene video surveillance, aiming to track a group of people over time in each view, as well as to identify the same person across different views at the same time, which is different from previous MOT and  multi-camera MOT tasks only considering the over-time human tracking. This is a relatively new problem but is very important for multi-person scene video surveillance. This way, the videos for MvMHAT require more complex annotations while containing more information for self-learning. In this work, we tackle this problem with a self-supervised learning aware end-to-end network. 
-Specifically, we propose to take advantage of the spatial-temporal self-consistency rationale by considering three properties of reflexivity, symmetry, and transitivity. Besides the reflexivity property that naturally holds, we design the self-supervised learning losses based on the properties of symmetry and transitivity, for both appearance feature learning and assignment matrix optimization, to associate multiple humans over time and across views. Furthermore, to promote the research on MvMHAT, we build two new large-scale benchmarks for the network training and testing of different algorithms. Extensive experiments on the proposed benchmarks verify the effectiveness of our method. 
+Multi-view multi-human association and tracking (MvMHAT), is an emerging yet important problem for multi-person scene
+video surveillance, aiming to track a group of people over time in each view, as well as to identify the same person across different
+views at the same time, which is different from previous MOT and multi-camera MOT tasks only considering the over-time human
+tracking. This way, the videos for MvMHAT require more complex annotations while containing more information for self-learning. In
+this work, we tackle this problem with an end-to-end neural network in a self-supervised learning manner. Specifically, we propose to
+take advantage of the spatial-temporal self-consistency rationale by considering three properties of reflexivity, symmetry, and transitivity.
+Besides the reflexivity property that naturally holds, we design the self-supervised learning losses based on the properties of symmetry
+and transitivity, for both appearance feature learning and assignment matrix optimization, to associate multiple humans over time and
+across views. Furthermore, to promote the research on MvMHAT, we build two new large-scale benchmarks for the network training
+and testing of different algorithms. Extensive experiments on the proposed benchmarks verify the effectiveness of our method.
 
 
 <div align= left>
@@ -32,7 +43,7 @@ Specifically, we propose to take advantage of the spatial-temporal self-consiste
 ## Install
 
 ~~~
-See the 'README' file included in the code folder 'mvmhat_pro'.
+See the 'README' file included in the code folder 'MvMHAT++'.
 
 **[Notes]** The public code of the conference paper (ACM MM 21) can be found at https://github.com/realgump/MvMHAT.
 ~~~
@@ -63,14 +74,23 @@ Password: MvMHAT
 
 ## Dataset (MMP-MvMHAT)
 
+### Baidu Drive
 ~~~
 Link: https://pan.baidu.com/s/1D_ex9fXwtIUvLaB3oua6uQ?pwd=mmpt 
 Password: mmpt
 ~~~
 
+### One Drive
+~~~
+Link: 
+Password:
+~~~
+   
 ## Evaluation
 
-We add the evaluation code and the raw results of the proposed method in 'Eval_MvMHAT_public.zip'.
+We add the evaluation code and the raw results of the proposed method in 'Eval_MvMHAT_public.zip'. 
+
+Besides, we define a new metric STMA (Spatial-Temporal Matching Accuracy) for the overall evaluation of the MvMHAT task. Detailed information about this metric can be found in the 'README' file within the 'MvMHAT++' code folder.
 
 
 ## Citation
