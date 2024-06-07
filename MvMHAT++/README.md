@@ -79,7 +79,7 @@ Modify lines 4 and 6 in config.py
 ~~~
 If you want to use the pre-trained STAN:
 ~~~
-Set line 59 in config.py 'use_pretrain_dhn' as True
+Set line 59 in config.py 'use_pretrained_dhn' as True
 Then, modify line 44 (RNN-based) or 48 (Transformer-based) in resnet_dhn_model.py to your pre-trained STAN path
 ~~~
 We also provide pre-trained RNN-based and transformer-based STAN, you can download from:
