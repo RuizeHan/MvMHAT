@@ -11,11 +11,11 @@ dataset_view_num_dict={
     'office_0': 5,
 }
 
-for i in range(1,15):
+for i in range(1,14):
     if i==6 or i==8 or i==10:
         dataset_view_num_dict[str(i)]=3
-
-
+    else:
+        dataset_view_num_dict[str(i)]=4
 
 test_frame_dict={
     # todo recover
@@ -225,7 +225,7 @@ def cal_time_view_mat_simliarity(start_frame,end_frame,frame_len,pred_gt_match_d
 def cal_new_metric(pred_base_path,gt_base_path,dataset_name):
     method_list=os.listdir(pred_base_path)
     if dataset_name == 'mvmhat':
-        dataset_name_list = [str(i) for i in range(1, 15) if i != 11]
+        dataset_name_list = [str(i) for i in range(1, 14)]
     elif dataset_name == 'MMPTrack':
         dataset_name_list = ['cafe_shop_0', 'industry_safety_0', 'lobby_0', 'office_0']
     else:
