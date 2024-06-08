@@ -14,8 +14,8 @@ dataset_view_num_dict={
 for i in range(1,15):
     if i==6 or i==8 or i==10:
         dataset_view_num_dict[str(i)]=3
-    elif i!=11:
-        dataset_view_num_dict[str(i)]=4
+
+
 
 test_frame_dict={
     # todo recover
@@ -38,9 +38,9 @@ test_frame_dict={
     '8': [3000, 4000],
     '9': [4000, 5000],
     '10': [5000, 6000],
+    '11': [1500, 2000],
     '12': [1500, 2000],
-    '13': [1500, 2000],
-    '14': [3000, 4000]
+    '13': [3000, 4000]
 }
 
 
