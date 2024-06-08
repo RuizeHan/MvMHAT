@@ -72,7 +72,7 @@ Link: https://tjueducn-my.sharepoint.com/:f:/g/personal/han_ruize_tju_edu_cn/EuY
 Password: MvMHAT
 ~~~
 
-## Dataset (MMP-MvMHAT)
+## Dataset (MMP-MvMHAT): Reconstructed from the MMPTRACK dataset
 
 ### Baidu Drive
 ~~~
