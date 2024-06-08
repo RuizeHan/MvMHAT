@@ -73,9 +73,9 @@ LEARNING_RATE = 1e-5
 REDUCTION_LEARNING_RATE = 1e-5
 
 # feature_extractor+dhn最大训练周期
-MAX_EPOCH = 20
+MAX_EPOCH = 15
 # dhn最大预训练周期
-PRETRAIN_MAX_EPOCH = 20
+PRETRAIN_MAX_EPOCH = 15
 
 RE_ID = 0
 # RE_ID = 'mypretrain_dhn0.3_unsuperviesd_dialog01_Hungarian_new_19_0.10984037089137488'
