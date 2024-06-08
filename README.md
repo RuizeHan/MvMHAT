@@ -79,13 +79,14 @@ Password: MvMHAT
 Link: https://pan.baidu.com/s/1D_ex9fXwtIUvLaB3oua6uQ?pwd=mmpt 
 Password: mmpt
 ~~~
-Note that, the videos in MMP-MvMHAT dataset are not collected in this work, it is better to contact the original authors for usage application.
 
 ### One Drive
 ~~~
 Link: https://1drv.ms/u/s!AnmuGPcsxJTJhgx5CGSUlIo0wKGR?e=LQVv2O
 Password: mmpmvmhat
 ~~~
+
+Note that, the videos in MMP-MvMHAT dataset are not collected in this work, it is better to contact the original authors for usage application.
    
 ## Evaluation
 
